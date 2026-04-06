@@ -1,7 +1,7 @@
 # Multi-Agent Physics-Informed Neural Network for Underground Hydrogen Storage
 
 <p align="center">
-  <img src="figures/Fig1a_Architecture.pdf" width="90%" alt="MA-PINN Architecture"/>
+  <img src="figures/Fig1a_Architecture.png" width="90%" alt="MA-PINN Architecture"/>
 </p>
 
 > **Paper:** *Multi-Agent Physics-Informed Neural Network for Coupled Multiphase Flow and Geochemistry in Underground Hydrogen Storage*
@@ -35,7 +35,7 @@ Underground Hydrogen Storage (UHS) in saline aquifers requires simulating **thre
 ## Architecture
 
 <p align="center">
-  <img src="figures/Fig2_Physics_Features.pdf" width="85%" alt="Feature Engineering"/>
+  <img src="figures/Fig2_Physics_Features.png" width="85%" alt="Feature Engineering"/>
 </p>
 
 Three specialist agents decompose the physics:
@@ -55,7 +55,7 @@ The 10 intermediate outputs + 4 raw features feed a **confidence-weighted consen
 ## Training Pipeline
 
 <p align="center">
-  <img src="figures/Fig1b_Training_Pipeline.pdf" width="85%" alt="Training Pipeline"/>
+  <img src="figures/Fig1b_Training_Pipeline.png" width="85%" alt="Training Pipeline"/>
 </p>
 
 | Phase | What | Data | Key idea |
@@ -74,7 +74,7 @@ The 10 intermediate outputs + 4 raw features feed a **confidence-weighted consen
 ### Performance Summary
 
 <p align="center">
-  <img src="figures/Fig3_MARL_Performance.pdf" width="90%" alt="Performance"/>
+  <img src="figures/Fig3_MARL_Performance.png" width="90%" alt="Performance"/>
 </p>
 
 | Method | R² | R²(P) | R²(Sw) | R²(Sg) | Speedup |
@@ -104,7 +104,7 @@ Gated Communication:      dR² = +0.005  (targets Sw, Sg specifically)
 ### Agent Interpretability
 
 <p align="center">
-  <img src="figures/Fig6_MARL_Interpretability.pdf" width="90%" alt="Interpretability"/>
+  <img src="figures/Fig6_MARL_Interpretability.png" width="90%" alt="Interpretability"/>
 </p>
 
 - **Gate activations** reveal physically meaningful routing: G->Y channel most open (g=0.70), Y->H most attenuated (g=0.44)
