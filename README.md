@@ -1,7 +1,7 @@
 # Multi-Agent Physics-Informed Neural Network for Underground Hydrogen Storage
 
 <p align="center">
-  <img src="figures/Fig1_MARL_Architecture.png" width="90%" alt="MA-PINN Architecture"/>
+  <img src="figures/Fig1a_Architecture.png" width="90%" alt="MA-PINN Architecture"/>
 </p>
 
 > **Paper:** *Multi-Agent Physics-Informed Neural Network for Coupled Multiphase Flow and Geochemistry in Underground Hydrogen Storage*
