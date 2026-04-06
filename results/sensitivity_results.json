@@ -1,0 +1,59 @@
+{
+  "sigma_values": [
+    0.2,
+    0.4,
+    0.6
+  ],
+  "n_epochs": 300,
+  "configurations": [
+    {
+      "sigma_microbial": 0.2,
+      "sigma_mineral": 0.17500000000000002,
+      "h2_loss_mean": 0.12956544756889343,
+      "h2_loss_std": 0.03472744673490524,
+      "h2_loss_min": 0.038641009479761124,
+      "h2_loss_max": 0.30000001192092896,
+      "data_path": "/Users/narjisse/Documents/Effat Courses/Microbial/UHS_MultiAgent_IJHE/data/processed/coupled_enriched_sigma_0.2.pt"
+    },
+    {
+      "sigma_microbial": 0.4,
+      "sigma_mineral": 0.35000000000000003,
+      "h2_loss_mean": 0.12992899119853973,
+      "h2_loss_std": 0.05982678756117821,
+      "h2_loss_min": 0.03819633647799492,
+      "h2_loss_max": 0.30000001192092896,
+      "data_path": "/Users/narjisse/Documents/Effat Courses/Microbial/UHS_MultiAgent_IJHE/data/processed/coupled_enriched_sigma_0.4.pt"
+    },
+    {
+      "sigma_microbial": 0.6,
+      "sigma_mineral": 0.525,
+      "h2_loss_mean": 0.1297965943813324,
+      "h2_loss_std": 0.07280156761407852,
+      "h2_loss_min": 0.03819633647799492,
+      "h2_loss_max": 0.30000001192092896,
+      "data_path": "/Users/narjisse/Documents/Effat Courses/Microbial/UHS_MultiAgent_IJHE/data/processed/coupled_enriched_sigma_0.6.pt"
+    }
+  ],
+  "experimental_references": {
+    "Hagemann_2016": {
+      "citation": "Hagemann et al. (2016) Environ. Earth Sci.",
+      "finding": "30-50% spatial variance in methanogenic activity",
+      "supports_sigma": "0.3-0.5"
+    },
+    "Thaysen_2021": {
+      "citation": "Thaysen et al. (2021) Energy Environ. Sci.",
+      "finding": "25-40% heterogeneity in mineral-H2 reaction rates",
+      "supports_sigma": "0.25-0.4"
+    },
+    "Heinemann_2021": {
+      "citation": "Heinemann et al. (2021) Int. J. Hydrogen Energy",
+      "finding": "H2 loss 1-17% per cycle with high variance",
+      "supports_sigma": "0.2-0.6"
+    },
+    "Panfilov_2010": {
+      "citation": "Panfilov (2010) Transport in Porous Media",
+      "finding": "Recommended CV=0.3-0.5 for microbial activity",
+      "supports_sigma": "0.3-0.5"
+    }
+  }
+}
